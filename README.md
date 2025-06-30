@@ -1,4 +1,4 @@
-# LooperAI - Personal Finance Management System
+# LooperAI - Personal Finance Management System  deplayed link [https://looperai.vercel.app/]
 
 A full-stack web application for managing personal finances with transaction tracking, analytics, and user authentication.
 
