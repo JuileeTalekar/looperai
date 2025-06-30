@@ -283,4 +283,4 @@ LooperAI/
 
 ---
 
-**Made with ❤️ by Juilee Talekar Team**
+**Made with ❤️ by Juilee Talekar **
