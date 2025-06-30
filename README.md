@@ -98,6 +98,25 @@ npm run dev
 
 The frontend will run on `http://localhost:5173`
 
+### cors configuration 
+4. Update backend CORS configuration to allow frontend access:
+   In backend/index.js, modify the CORS settings:
+
+   bash
+   app.use(
+    cors({
+    origin: [<Your Frontend URL Here>], // Add all frontend URLs explicitly
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+    allowedHeaders: [
+      "Content-Type",
+      "Authorization",
+      "X-Requested-With",
+      "Accept",
+    ],
+    })
+    );
+
 ## 🎯 Usage Examples
 
 ### User Registration
