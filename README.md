@@ -2,6 +2,24 @@
 
 A full-stack web application for managing personal finances with transaction tracking, analytics, and user authentication.
 
+## 📝 Signup Note ⚠
+⚠️ While signing up, please use one of the following userIds:
+
+user_001
+
+user_002
+
+user_003
+
+These IDs match the pre-seeded transaction data in the database. You can enter any email and password. For example:
+
+json
+{
+  "email": "test@example.com",
+  "password": "yourpassword",
+  "userId": "user_001"
+}
+
 ## 🚀 Features
 
 - **User Authentication** - Secure signup/signin with JWT tokens
@@ -105,11 +123,14 @@ The frontend will run on `http://localhost:5173`
    bash
    app.use(
     cors({
-    origin: [<Your Frontend URL Here>], // Add all frontend URLs explicitly
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    origin: [<Your Frontend URL Here>],   // Add all frontend URLs explicitly
+
+
+   methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
     allowedHeaders: [
-      "Content-Type",
+
+    "Content-Type",
       "Authorization",
       "X-Requested-With",
       "Accept",
@@ -222,9 +243,6 @@ LooperAI/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🐛 Troubleshooting
 
